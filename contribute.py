@@ -21,7 +21,7 @@ def remove_readonly(func, path, excinfo):
 def main(def_args=sys.argv[1:]):
     args = arguments(def_args)
     #curr_date = datetime.now()
-    curr_date = datetime(2011, 10, 4, 1, 12, 34) 
+    curr_date = datetime(2020, 12, 5, 3, 56, 34) 
     directory = 'repository-' + curr_date.strftime('%Y-%m-%d-%H-%M-%S')
     repository = args.repository
     user_name = args.user_name
@@ -120,7 +120,7 @@ def arguments(argsval):
     parser.add_argument('-ue', '--user_email', type=str, required=False, default="strike10310522@gmail.com",
                         help="""Overrides user.email git config.
                         If not specified, the global config is used.""")
-    parser.add_argument('-da', '--days_ago', type=int, required=False, default=500,
+    parser.add_argument('-da', '--days_ago', type=int, required=False, default=930,
                         help="""Show them if you want to contribute a few days in advance.""")
     parser.add_argument('-sd', '--start_date', type=str, required=False,
                         help="""Start Date.""")

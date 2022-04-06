@@ -1,4 +1,4 @@
-# dEscrow Contracts
+## dEscrow Contracts
 
 This repo contains all the contracts for dEscrow. It uses hardhat to aid in development.
 
